@@ -1,3 +1,4 @@
+"use client";
 //Next
 import Image from "next/image";
 import Link from "next/link";
@@ -14,7 +15,7 @@ const Navigation = () => {
     "beverage",
     "contact",
     "events",
-    "the loft",
+    "loft",
   ];
   const botNav = ["f.a.q", "careers"];
   return (

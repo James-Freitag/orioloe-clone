@@ -1,10 +1,17 @@
 import Image from "next/image";
-import Navigation from "./components/Navigation";
+import homepageImage from "../public/ori-pics/home-pic.jpeg";
 
 export default function Home() {
   return (
-    <main className="max-w-[77rem] p-20 h-[200vh]">
-      <Navigation />
+    <main className="pl-8">
+      <div className="flex justify-center items-center p-4">
+        <Image
+          src={homepageImage}
+          alt="steak with flower"
+          width={456}
+          className="hover:bg-white/50"
+        />
+      </div>
     </main>
   );
 }
