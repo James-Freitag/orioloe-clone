@@ -3,7 +3,7 @@ import homepageImage from "../public/ori-pics/home-pic.jpeg";
 
 export default function Home() {
   return (
-    <main className="pl-8">
+    <main className=" md:pl-64">
       <div className="flex justify-center items-center p-4">
         <Image
           src={homepageImage}

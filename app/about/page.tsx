@@ -5,9 +5,9 @@ import aboutImage from "../../public/ori-pics/about-pic.jpg";
 
 const About = () => {
   return (
-    <section className="w-full h-auto pl-64">
-      <div className="grid grid-cols-2 gap-6 mx-auto place-content-center w-full h-full">
-        <div className="max-w-[16.12rem] flex flex-col justify-items-start w-full h-full  text-sm place-self-end">
+    <section className="w-full h-auto md:pl-64">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mx-auto place-content-center w-full h-full">
+        <div className="md:max-w-[16.12rem] flex flex-col md:justify-items-start w-full h-full  text-sm md:place-self-end">
           <p className="uppercase">about</p>
           <p className="italic pt-6">
             <span className="font-semibold w-full">Oriole</span> is a

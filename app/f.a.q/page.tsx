@@ -52,21 +52,21 @@ const FAQ = () => {
     },
   ];
   return (
-    <section className="w-[77rem] h-auto pl-80">
+    <section className="w-[77rem] h-auto md:pl-80">
       <div>
-        <p className="uppercase text-center text-lg max-w-[48rem]">
+        <p className="uppercase text-center text-lg md:max-w-[48rem]">
           frequently asked questions
         </p>
 
         {questions.map((question: any, index: number) => (
           <div
             key={index}
-            className="grid grid-cols-4 gap-4 border-b-[1px] w-[48rem] border-neutral-300 text-sm p-10"
+            className="grid grid-cols-4 gap-4 border-b-[1px] md:w-[48rem] border-neutral-300 text-sm p-10"
           >
             <p className="uppercase max-w-[9.8rem] col-end-1">
               {question.question}
             </p>
-            <p className="max-w-[33.8rem] col-span-4 italic text-[#666666]">
+            <p className="max-w-[33.8rem] md:col-span-4 italic text-[#666666]">
               {question.answer}
             </p>
           </div>

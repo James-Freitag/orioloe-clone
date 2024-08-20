@@ -6,9 +6,9 @@ const Beverage = () => {
   const wineList =
     "https://static1.squarespace.com/static/5636d03ae4b05d222e994744/t/662963d1053c337c4feb0ce2/1713988562021/ORIOLE-WINELIST+APRIL+2024..pdf";
   return (
-    <section className="w-full h-auto pl-64 min-h-[420px]">
-      <div className="grid grid-cols-2 gap-6 mx-auto place-content-center w-full h-full">
-        <div className="max-w-[19rem] flex flex-col justify-items-start w-full h-full space-y-4 text-sm place-self-end">
+    <section className="w-full h-auto md:pl-64 min-h-[420px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mx-auto place-content-center w-full h-full">
+        <div className="md:max-w-[19rem] flex flex-col justify-items-start w-full h-full space-y-4 text-sm md:place-self-end">
           <p className="uppercase text-md font-thin">beverage</p>
           <p className="text-sm italic">
             <span className="font-semibold">Oriole</span> offers a variety of
@@ -40,7 +40,7 @@ const Beverage = () => {
             two bottles per reservation. There is a $50 corkage fee per bottle.
           </p>
         </div>
-        <div>
+        <div className="place-self-center md:place-self-start">
           <Image src={beverageImage} alt="plates of food" width={413} />
         </div>
       </div>

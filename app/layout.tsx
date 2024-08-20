@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${eb_garamond.className} max-w-[77rem] p-20`}>
+      <body className={`${eb_garamond.className} max-w-[77rem] p-6 md:p-20`}>
         <Navigation />
         {children}
       </body>

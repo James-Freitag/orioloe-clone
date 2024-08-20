@@ -9,7 +9,7 @@ import eventImg6 from "../../public/ori-pics/event-pics/IMG_0040.jpg";
 
 const Events = () => {
   return (
-    <section className="w-full h-auto pl-64 min-h-[420px]">
+    <section className="w-full h-auto md:pl-64 min-h-[420px]">
       <div className="grid grid-cols-1 gap-6 px-6 py-2 mx-auto place-content-center w-full h-full">
         <div className=" flex flex-col justify-items-start w-full h-full space-y-4 text-sm place-self-center pb-4">
           <p className="text-sm italic w-full text-center">
@@ -21,7 +21,7 @@ const Events = () => {
             </a>
           </div>
         </div>
-        <div className="grid grid-cols-3 max-w-[22.875rem] gap-2 place-self-center">
+        <div className="grid grid-cols-2 md:grid-cols-3 md:max-w-[22.875rem] gap-2 place-self-center">
           <Image
             src={eventImg2}
             alt="event photo"

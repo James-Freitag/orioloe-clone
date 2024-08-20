@@ -9,9 +9,9 @@ import loftPic6 from "../../public/ori-pics/loft-pics/Oriole_loft_14.jpg";
 
 const Loft = () => {
   return (
-    <section className="w-full h-auto pl-64 min-h-[420px]">
-      <div className="grid grid-cols-2 gap-6 mx-auto place-content-center w-full h-full">
-        <div className="max-w-[20rem] flex flex-col justify-items-start w-full h-full space-y-4 text-sm place-self-end">
+    <section className="w-full h-auto md:pl-64 min-h-[420px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mx-auto place-content-center w-full h-full">
+        <div className="md:max-w-[20rem] flex flex-col justify-items-start w-full h-full space-y-4 text-sm md:place-self-end">
           <p className="uppercase text-md">the loft</p>
           <p className="text-sm italic">
             We invite you to extend your Oriole experience overnight with our

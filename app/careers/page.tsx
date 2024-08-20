@@ -4,9 +4,9 @@ import careersImage from "../../public/ori-pics/careers-pic.jpg";
 
 const Careers = () => {
   return (
-    <section className="w-full h-auto pl-64 min-h-[420px]">
-      <div className="grid grid-cols-2 gap-8 mx-auto place-content-center p-16 w-full h-full">
-        <div className="max-w-[21.8rem] flex flex-col justify-items-start w-full h-full space-y-6 text-sm place-self-end">
+    <section className="w-full h-auto md:pl-64 min-h-[420px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mx-auto place-content-center md:p-16 w-full h-full">
+        <div className="md:max-w-[21.8rem] flex flex-col justify-items-start w-full h-full space-y-6 text-sm md:place-self-end">
           <div>
             <p className="uppercase text-lg font-thin pb-3 text-[#2D2A2A]">
               careers
@@ -45,7 +45,7 @@ const Careers = () => {
             </p>
           </div>
         </div>
-        <div>
+        <div className="md:place-self-start place-self-center">
           <Image
             src={careersImage}
             alt="plates of food"
