@@ -59,8 +59,11 @@ const FAQ = () => {
         </p>
 
         {questions.map((question: any, index: number) => (
-          <div className="grid grid-cols-4 gap-4 border-b-[1px] w-[48rem] border-neutral-300 text-sm p-10">
-            <p key={index} className="uppercase max-w-[9.8rem] col-end-1">
+          <div
+            key={index}
+            className="grid grid-cols-4 gap-4 border-b-[1px] w-[48rem] border-neutral-300 text-sm p-10"
+          >
+            <p className="uppercase max-w-[9.8rem] col-end-1">
               {question.question}
             </p>
             <p className="max-w-[33.8rem] col-span-4 italic text-[#666666]">

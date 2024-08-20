@@ -5,7 +5,8 @@ const NotFound = () => {
   return (
     <main className="w-full flex flex-col space-y-4 justify-center items-center mx-auto">
       <h2 className="text-md italic pl-5">
-        We couldn't find the page you were looking for. This is either because:
+        We couldn&apos;t find the page you were looking for. This is either
+        because:
       </h2>
       <ul className="list-disc pl-64 text-sm italic">
         <li>

@@ -13,7 +13,7 @@ const Careers = () => {
             </p>
             <p className="italic text-[#666666] text-sm">
               Oriole is an inclusive and collaborative team that thrives on each
-              member's input and enthusiasm.
+              member&apos;s input and enthusiasm.
             </p>
           </div>
           <div>

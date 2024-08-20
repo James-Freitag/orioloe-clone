@@ -11,17 +11,17 @@ const About = () => {
           <p className="uppercase">about</p>
           <p className="italic pt-6">
             <span className="font-semibold w-full">Oriole</span> is a
-            contemporary-American restaurant located in Chicago's West Loop
+            contemporary-American restaurant located in Chicago&apos;s West Loop
             neighborhood featuring{" "}
             <span className="font-semibold">
-              Executive Chef and Owner Noah Sandoval's
+              Executive Chef and Owner Noah Sandoval&apos;s
             </span>{" "}
-            award winning tasting menu. Since Oriole's opening in 2016, it has
-            repeatedly earned two Michelin stars and recently received the Jean
-            Banchet Award for Restaurant of the Year.{" "}
+            award winning tasting menu. Since Oriole&apos;s opening in 2016, it
+            has repeatedly earned two Michelin stars and recently received the
+            Jean Banchet Award for Restaurant of the Year.{" "}
             <span className="font-semibold">Chef Sandoval</span> is also a James
-            Beard nominated chef and was named one of Food & Wine's Best New
-            Chefs in 2017.
+            Beard nominated chef and was named one of Food & Wine&apos;s Best
+            New Chefs in 2017.
           </p>
           <p className="pt-6">
             Our chefs offer an extended tasting. menu that is constantly

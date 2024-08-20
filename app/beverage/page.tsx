@@ -27,11 +27,12 @@ const Beverage = () => {
           <p className="uppercase text-md">pairings</p>
           <p className="text-sm italic">
             Three pairing options are also available to accompany your meal.
-            Emily Rosenfeld curates both a standard pairing to match the chefs'
-            creations as well as a reserve pairing showcasing special wines of
-            older vintages, esteemed producers, and rarer bottles. Additionally,
-            a spiritfree pairing created by Julia Momose features creative,
-            non-alcoholic beverages made to perfectly complement the menu.
+            Emily Rosenfeld curates both a standard pairing to match the
+            chefs&apos; creations as well as a reserve pairing showcasing
+            special wines of older vintages, esteemed producers, and rarer
+            bottles. Additionally, a spiritfree pairing created by Julia Momose
+            features creative, non-alcoholic beverages made to perfectly
+            complement the menu.
           </p>
           <p className="text-md uppercase font-thin">corkage policy</p>
           <p className="text-sm italic">

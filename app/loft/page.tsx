@@ -22,14 +22,15 @@ const Loft = () => {
             .
           </p>
           <p className="italic">
-            This booking includes a reservation for two at Oriole's Kitchen
+            This booking includes a reservation for two at Oriole&apos;s Kitchen
             Table, a front-row dining experience and menu curated by Chef Noah
-            Sandoval, as well as a one-night stay in Oriole's newly debuted Loft
+            Sandoval, as well as a one-night stay in Oriole&apos;s newly debuted
+            Loft
           </p>
           <p className="italic">
-            Located directly above the restaurant in Chicago's West Loop, the
-            Oriole Loft is your ideal stay after finishing a world-class meal at
-            the restaurant.
+            Located directly above the restaurant in Chicago&apos;s West Loop,
+            the Oriole Loft is your ideal stay after finishing a world-class
+            meal at the restaurant.
           </p>
           <p className="italic">
             The space is fully furnished with everything you need for your
