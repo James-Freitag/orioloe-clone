@@ -115,8 +115,8 @@ const Navigation = () => {
             </button>
           </div>
         </div>
-        <div>
-          <ul className="flex space-x-2 items-center hover:opacity-70 pb-20">
+        <div className="md:hidden">
+          <ul className=" flex space-x-2 items-center hover:opacity-70 pb-20">
             <li>
               <Link
                 href="https://www.facebook.com/oriolechicago/?ref=aymt_homepage_panel"
